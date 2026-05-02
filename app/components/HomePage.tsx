@@ -50,7 +50,7 @@ export default function HomePage(){
     <div >
     <Image
     src={Img1}
-    alt="image" className="object-cover w-full"/>
+    alt="image" className="object-cover opacity-95 w-full"/>
     </div>
 
 </div>
