@@ -75,7 +75,9 @@ export default function HomePage() {
             The only spirit-free aperitif that tastes as good as it  makes you feel.
           </h2>
 
-     <Button text='Shop NOw'/>
+   <Link href="/about">
+     <Button text='Shop Now'/>
+   </Link>
         </div>
 
         {/* RIGHT — Cocktail Image */}
