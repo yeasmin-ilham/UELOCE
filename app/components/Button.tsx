@@ -15,7 +15,6 @@ export default function Button({text }:ButtonProps){
         {pending ? (
           <button disabled >
             <Loader2 className="animate-spin mr-2 w-4 h-4"/>
-            Please Wait
           </button>
         ): (   <div>
             <button

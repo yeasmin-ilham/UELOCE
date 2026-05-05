@@ -4,6 +4,8 @@ import Img from "../assets/jahanzeb-ahsan-8a3-6yE-fio-unsplash.jpg"
 import Img2 from "../assets/Decorative border.png"
 import Link from 'next/link'
 import Button from './Button'
+import Img3 from "../assets/Image 05.png"
+import Home3rd from './Home3rd'
 
 
 
@@ -19,7 +21,7 @@ export default function HomePage() {
           <div>
 
             <h1
-              className="text-[clamp(60px,20vw,200px)] lg:text-[clamp(100px,30vw,350px)] leading-[0.88] tracking-tight uppercase select-none font-jaro"
+              className="text-[clamp(60px,20vw,200px)] lg:text-[clamp(80px,25vw,280px)] leading-[0.88] tracking-tight uppercase select-none font-jaro ml-4"
             >
               UÉLOCE 
             </h1>
@@ -69,18 +71,16 @@ export default function HomePage() {
           className="bg-secondary flex flex-col gap-13 p-8 "
         >
           <h2
-            className="text-5xl uppercase font-staat"
+            className="text-4xl md:text-5xl uppercase font-staat "
             
           >
             The only spirit-free aperitif that tastes as good as it  makes you feel.
           </h2>
 
-   <Link href="/about">
      <Button text='Shop Now'/>
-   </Link>
         </div>
 
-        {/* RIGHT — Cocktail Image */}
+        {/* RIGHT Image */}
         <div className="relative min-h-[55vw] md:min-h-0 overflow-hidden bg-neutral-200">
           <Image
             src={Img}
@@ -100,9 +100,9 @@ export default function HomePage() {
 
       {/* ─────────────────────────────── Home page 2nd SECTION ──────── */}
       <section
-        className=" px-6 py-10 md:px-10 md:py-9"
+        className=" px-6 py-10 md:px-10 md:py-12 bg-accent"
       >
-        <div className=" max-w-7xl mx-auto  items-center">
+        <div className="max-w-5xl md:max-w-7xl mx-auto  items-center space-y-13">
           <h3 className='text-6xl font-staat'>
            Véloce is the ZERO-PROOF aperitif for modern living,
             crafted with super herbs and nutraceuticals to elevate your well-being, 
@@ -113,22 +113,26 @@ export default function HomePage() {
           
       </section>
 
+
+            {/* ------Home page 3rd section------- */}
+            <Home3rd/>
+
+            {/*  */}
+
       {/* ─────────────────────────────── FOOTER ─────────────── */}
       <footer
-        id="contact"
-        className="bg-white px-6 py-12 md:px-20 md:py-16 flex flex-col md:flex-row justify-between items-start md:items-center gap-8 border-t border-[var(--color-brand-black)]/10"
+        className="bg-accent px-6 py-12 md:px-20  flex flex-col md:flex-row justify-between items-start md:items-center gap-8 border-t border-gray-400 font-staat"
       >
         <span
-          className="text-[clamp(28px,5vw,52px)] leading-none uppercase text-[var(--color-brand-black)]"
-          style={{ fontFamily: 'var(--font-bebas)' }}
+          className="text-5xl leading-none uppercase font-jaro "
+
         >
-          VÉLOCE
+          UÉLOCE
         </span>
 
         <nav>
           <ul
-            className="flex flex-wrap gap-x-8 gap-y-3 font-bold tracking-[0.18em] uppercase text-sm text-[var(--color-brand-black)]"
-            style={{ fontFamily: 'var(--font-barlow)' }}
+            className="flex flex-wrap gap-x-8 gap-y-3 font-bold tracking-tight uppercase text-sm text-gray-500"
           >
             {['About', 'Find Stocklists', 'Contact', 'Instagram', 'Privacy'].map(
               (item) => (
@@ -147,14 +151,13 @@ export default function HomePage() {
 
         <p
           className="text-xs tracking-widest uppercase text-neutral-400 font-semibold"
-          style={{ fontFamily: 'var(--font-barlow)' }}
         >
           © {new Date().getFullYear()} VÉLOCE
         </p>
       </footer>
+
     </main>
   )
 }
 
 
-/* md:grid-cols-[2fr_5fr] */
