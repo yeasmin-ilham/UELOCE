@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Img3 from "../assets/Image 03.png"
+import Img3 from "@/app/assets/Image 02.png"
 
-export default function FeaturedProduct() {
+export default function Home3rd() {
   return (
 
      <section className="relative h-200 overflow-hidden flex items-end justify-center">
