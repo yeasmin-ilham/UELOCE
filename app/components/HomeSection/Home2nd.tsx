@@ -16,7 +16,7 @@ export default function Home2nd(){
           className="bg-secondary flex flex-col gap-13 p-8 "
         >
           <h2
-            className="text-4xl md:text-5xl uppercase font-staat "
+            className=" text:3xl sm:text-4xl md:text-5xl uppercase font-staat "
             
           >
             The only spirit-free aperitif that tastes as good as it  makes you feel.
@@ -47,7 +47,7 @@ export default function Home2nd(){
                 className=" px-6 py-10 md:px-10 md:py-12 bg-accent"
               >
                 <div className="max-w-5xl md:max-w-7xl mx-auto  items-center space-y-13">
-                  <h3 className='text-6xl font-staat'>
+                  <h3 className='text-2xl sm:text-4xl md:text-6xl font-staat'>
                    Véloce is the ZERO-PROOF aperitif for modern living,
                     crafted with super herbs and nutraceuticals to elevate your well-being, 
                    without compromising the sophisticated ritual of the aperitif.

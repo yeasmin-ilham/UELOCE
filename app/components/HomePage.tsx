@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Home3rd from './HomeSection/Home3rd'
 import Home2nd from './HomeSection/Home2nd'
 import Home4 from './HomeSection/Home4'
+import Home5 from './HomeSection/Home5'
 
 
 
@@ -72,6 +73,10 @@ export default function HomePage() {
 
             {/* -------------Home page 4rth section------------ */}
             <Home4/>
+
+
+            {/* -------------Home page 5th section------------ */}
+            <Home5/>
 
       {/* ─────────────────────────────── FOOTER ─────────────── */}
       <footer

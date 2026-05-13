@@ -19,7 +19,7 @@ export default function Button({text }:ButtonProps){
         ): (   <div>
             <button
             className="self-start bg-primary text-secondary font-bold tracking-tight
-             uppercase text-2xl px-4 py-3 font-jaro rounded-md cursor-pointer hover:text-primary 
+             uppercase text-normal md:text-xl lg:text-2xl px-4 py-3 font-jaro rounded-md cursor-pointer hover:text-primary 
              hover:bg-secondary hover:border-2 transition-all duration-300 scale-105"
            
             >
