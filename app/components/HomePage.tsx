@@ -6,6 +6,7 @@ import Home3rd from './HomeSection/Home3rd'
 import Home2nd from './HomeSection/Home2nd'
 import Home4 from './HomeSection/Home4'
 import Home5 from './HomeSection/Home5'
+import Home6 from './HomeSection/Home6'
 
 
 
@@ -64,7 +65,7 @@ export default function HomePage() {
 
 
       {/* ─────────────────────────────── Home page 2nd SECTION ──────── */}
-                  <Home2nd/>
+              <Home2nd/>
 
 
             {/* -------------Home page 3rd section------------ */}
@@ -78,12 +79,16 @@ export default function HomePage() {
             {/* -------------Home page 5th section------------ */}
             <Home5/>
 
+
+            {/* -------------Home page 6 section------------ */}
+            <Home6/>
+
       {/* ─────────────────────────────── FOOTER ─────────────── */}
       <footer
-        className="bg-accent px-6 py-12 md:px-20  flex flex-col md:flex-row justify-between items-start md:items-center gap-8 border-t border-gray-400 font-staat"
+        className="px-6 py-12 md:px-20  flex flex-col md:flex-row justify-between items-start md:items-center gap-8 bg-secondary font-staat"
       >
         <span
-          className="text-5xl leading-none uppercase font-jaro "
+          className="text-5xl md:text-9xl leading-none uppercase font-jaro "
 
         >
           UÉLOCE
@@ -91,7 +96,7 @@ export default function HomePage() {
 
         <nav>
           <ul
-            className="flex flex-wrap gap-x-8 gap-y-3 font-bold tracking-tight uppercase text-sm text-gray-500"
+            className="flex flex-wrap gap-x-8 gap-y-3 font-bold uppercase "
           >
             {['About', 'Find Stocklists', 'Contact', 'Instagram', 'Privacy'].map(
               (item) => (
@@ -109,12 +114,21 @@ export default function HomePage() {
         </nav>
 
         <p
-          className="text-xs tracking-widest uppercase text-neutral-400 font-semibold"
+          className="text-xs  uppercase  font-semibold"
         >
           © {new Date().getFullYear()} VÉLOCE
         </p>
+
+                {/* decorative border */}
+ 
       </footer>
 
+       <div>
+            <Image
+            src={Img2}
+            alt='Image'
+            className='w-full object-cover bg-secondary'/>
+        </div>
     </main>
   )
 }
