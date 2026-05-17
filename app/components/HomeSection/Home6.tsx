@@ -1,5 +1,5 @@
 import Image from "next/image";
-import cocktailImg from "@/app/assets/Image 06.png";
+import cocktailImg from "@/app/assets/hogir-saeed-5tG427SMcCM-unsplash.jpg";
 
 export default function Home6() {
   return (

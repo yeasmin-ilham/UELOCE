@@ -1,6 +1,6 @@
 import Button from "../Button";
 import Image from 'next/image'
-import Img from "@/app/assets/jahanzeb-ahsan-8a3-6yE-fio-unsplash.jpg"
+import Img from "@/app/assets/k15-photos-SMUrHECtH3M-unsplash.jpg"
 
 
 export default function Home2nd(){
@@ -33,7 +33,7 @@ export default function Home2nd(){
             fill
             priority
             
-            className="object-cover object-center"
+            className="object-cover object-bottom"
           />
 
           {/* Subtle darkening overlay at left edge to blend with tan section */}

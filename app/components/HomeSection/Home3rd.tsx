@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Img3 from "@/app/assets/Image 02.png"
+import Img3 from "@/app/assets/aneta-voborilova-gEkTo1Oi78A-unsplash.jpg"
 
 export default function Home3rd() {
   return (
@@ -12,7 +12,7 @@ export default function Home3rd() {
         alt="Primavera aperitif in a crystal glass"
         fill
         priority
-        className="absolute inset-0  object-cover w-full"
+        className="absolute inset-0  object-cover w-full object-top"
       />
 
       {/* Dark overlay for extra depth */}

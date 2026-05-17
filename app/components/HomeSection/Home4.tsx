@@ -1,7 +1,7 @@
 
-import wine1 from "@/app/assets/Image 02.png"
-import wine2 from "@/app/assets/Image 03.png"
-import wine3 from "@/app/assets/Image 04.png"
+import wine1 from "@/app/assets/mockup-graphics-XiWQbLEhFyo-unsplash.jpg"
+import wine2 from "@/app/assets/mockup-graphics-KfX5c9TxYPg-unsplash.jpg"
+import wine3 from "@/app/assets/mockup-graphics-xIfhcoVwAjc-unsplash.jpg"
 import Image from "next/image"
 
 const product = [
@@ -39,11 +39,14 @@ export default function Home4(){
 
     {product.map((item)=>(
         <div key={item.id}>
-            <p className="absolute z-10 p-5 text-white text-4xl font-staat">{item.name}</p>
+            <p className="absolute z-10 p-5 text-secondary text-4xl font-staat">{item.name}</p>
             <Image
             src={item.Img}
             alt="Image" className="object-cover w-full hover:opacity-60 transition-all duration-300 cursor-pointer"
+            
             />
+
+
             
            <div className="flex flex-col font-staat space-y-3 text:normal md:text-xl">
              <p>{item.description}</p>
