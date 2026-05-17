@@ -1,5 +1,5 @@
 import Image from "next/image";
-import cocktailImg from "@/app/assets/mads-eneqvist-5ip6uoibOCk-unsplash.jpg";
+import cocktailImg from "@/app/assets/eduard-pretsi-BfqfDfyQVW8-unsplash.jpg";
 
 export default function Home6() {
   return (

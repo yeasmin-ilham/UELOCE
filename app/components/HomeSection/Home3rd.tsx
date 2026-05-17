@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Img3 from "@/app/assets/aneta-voborilova-gEkTo1Oi78A-unsplash.jpg"
+import Img3 from "@/app/assets/rae-wallis-UucZgBwe7iI-unsplash.jpg"
 
 export default function Home3rd() {
   return (
@@ -12,11 +12,11 @@ export default function Home3rd() {
         alt="Primavera aperitif in a crystal glass"
         fill
         priority
-        className="absolute inset-0  object-cover w-full object-top"
+        className="absolute inset-0  object-cover object-top "
       />
 
       {/* Dark overlay for extra depth */}
-      <div className="absolute inset-0 bg-black/50" />
+      <div className="absolute inset-0 bg-black/40" />
 
       {/* Foreground Content */}
       <div className="absolute z-10 flex flex-col pb-20 px-6 text-center text-white">
