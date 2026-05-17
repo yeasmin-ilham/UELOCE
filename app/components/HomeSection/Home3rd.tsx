@@ -16,7 +16,7 @@ export default function Home3rd() {
       />
 
       {/* Dark overlay for extra depth */}
-      <div className="absolute inset-0 bg-black/30" />
+      <div className="absolute inset-0 bg-black/50" />
 
       {/* Foreground Content */}
       <div className="absolute z-10 flex flex-col pb-20 px-6 text-center text-white">

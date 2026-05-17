@@ -1,6 +1,6 @@
 import Button from "../Button";
 import Image from 'next/image'
-import Img from "@/app/assets/k15-photos-SMUrHECtH3M-unsplash.jpg"
+import Img from "@/app/assets/denis-sousa-PzZnixZv12U-unsplash.jpg"
 
 
 export default function Home2nd(){
@@ -32,8 +32,7 @@ export default function Home2nd(){
             alt="VÉLOCE zero-proof aperitif cocktails"
             fill
             priority
-            
-            className="object-cover object-bottom"
+            className="object-cover "
           />
 
           {/* Subtle darkening overlay at left edge to blend with tan section */}
